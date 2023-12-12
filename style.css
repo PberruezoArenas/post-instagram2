@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+
+.post1{
+    width: 600px;
+    height: 500px;
+    background-color: aliceblue;
+    text-align: center;
+    margin: auto;
+}
+
+.photo {
+    overflow: hidden;
+    margin: auto;
+    object-fit: contain;
+    
+}
+
+.html5 {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
