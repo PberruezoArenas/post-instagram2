@@ -3,23 +3,48 @@ body {
 }
 
 
-.post1{
-    width: 600px;
-    height: 500px;
-    background-color: aliceblue;
+.post{
+    width: 450px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
     text-align: center;
     margin: auto;
+    margin-top: 100px;
+ 
 }
 
-.photo {
+.pointsheader {
+    width: 50px;
+    object-fit: contain;
+    margin-left: 300px;
+
+}
+
+.postimage {
     overflow: hidden;
     margin: auto;
     object-fit: contain;
     
 }
 
-.html5 {
+.postheader {
     display: flex;
+    margin-bottom: -10px;
+}
+
+
+.html5 {
+    position: relative;
     width: 30px;
     height: 30px;
+    margin: 8px 8px;
+}
+
+h1 {
+    text-align: initial;
+    margin-top: 8px;
+    font-size: small;
+}
+.nameheader {
+   margin-top: -7px;
 }
